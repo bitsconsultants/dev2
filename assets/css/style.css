@@ -120,8 +120,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled, #header.header-inner-pages {
-  background: #fff;
-  padding: 12px 0;
+  background: rgb(255, 255, 255);
+  opacity: 95%;
+  height: 120px;
 }
 #header .logo img {
   top:30px;
