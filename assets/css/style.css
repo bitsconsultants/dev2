@@ -125,8 +125,9 @@ h1, h2, h3, h4, h5, h6 {
   height: 120px;
 }
 #header .logo img {
+  padding-left: 30px;
   top:30px;
-  width:250px;
+  width:200px;
   height:120px;
   padding-bottom: 50px;
 }
@@ -159,6 +160,9 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   white-space: nowrap;
   padding: 10px 12px;
+}
+.nav-menu{
+  padding-bottom: 30px;
 }
 
 .nav-menu a {
@@ -1683,4 +1687,227 @@ section {
 
 #footer .credits a {
   transition: 0.3s;
+}
+
+@media screen and (max-width: 991px) {
+  #services {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  #services2 {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+
+.help-button-wrapper {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  text-align: center;
+}
+.help-button {
+  display: inline-block;
+  padding: 0;
+border: none;
+background: none;
+  transform: scale(1);
+  transition: all 200ms ease;
+}
+.help-button span {
+  display: inline-block;
+  font-size: 2em;
+  transform: scale(1);
+  transition: transform 100ms ease;
+}
+.help-button:hover span,
+.expanded .help-button span,
+.expanded .help-button span {
+  transform: scale(1.25);
+}
+.expanded .help-button {
+  transform: scale(0.5);
+  background-image: none;
+}
+.help-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  transition: all 200ms ease;
+  transform: translate(0, 90px) scale(0.5);
+  transform-origin: bottom center;
+  opacity: 0;
+}
+.expanded .help-list {
+  transform: translate(0px, 20px) scale(1);
+  opacity: 1;
+}
+.help-list li {
+  margin-bottom: 1em;
+}
+.help-list a {
+  color: #212121;
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:30px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+.float2{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:120px;
+	right:30px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.my-float2{
+	margin-top:16px;
+}
+
+.why .count-box {
+  padding: 60px 0;
+  width: 100%;
+}
+
+.why .count-box i {
+  display: block;
+  font-size: 48px;
+  color: #a1bdd1;
+  float: left;
+}
+
+.why .count-box span {
+  font-size: 28px;
+  line-height: 25px;
+  display: block;
+  font-weight: 700;
+  color: #365870;
+  margin-left: 60px;
+}
+
+.why .count-box p {
+  padding: 5px 0 0 0;
+  margin: 0 0 0 60px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #2e4b5e;
+}
+
+.why .count-box a {
+  font-weight: 600;
+  display: block;
+  margin-top: 20px;
+  color: #2e4b5e;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  transition: ease-in-out 0.3s;
+}
+
+.why .count-box a:hover {
+  color: #477392;
+}
+#why-us {
+  padding: 60px 0;
+}
+
+#why-us .section-header h3, #why-us .section-header p {
+  color: #fff;
+}
+
+#why-us .card {
+  background: #00458f;
+  border-color: #00458f;
+  border-radius: 10px;
+  margin: 0 15px;
+  padding: 15px 0;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  height: 100%;
+}
+
+@media (max-width: 991px) {
+  #why-us .card {
+    margin: 0;
+  }
+}
+
+#why-us .card i {
+  font-size: 48px;
+  padding-top: 15px;
+  color: #bfddfe;
+}
+
+#why-us .card h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#why-us .card p {
+  font-size: 15px;
+  color: #d8eafe;
+}
+
+#why-us .card .readmore {
+  color: #fff;
+  font-weight: 600;
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+  border-bottom: #00458f solid 2px;
+}
+
+#why-us .card .readmore:hover {
+  border-bottom: #fff solid 2px;
+}
+
+#why-us .counters {
+  padding-top: 40px;
+}
+
+#why-us .counters span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  display: block;
+  color: #fff;
+}
+
+#why-us .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #cce5ff;
 }
