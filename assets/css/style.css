@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 120px;
 }
 #header .logo img {
-  padding-left: 30px;
+  padding-left: 10px;
   top:30px;
   width:200px;
   height:120px;
@@ -793,10 +793,10 @@ section {
   text-align: center;
   background-color: #1A237E;
   border-radius: 4px;
-  text-align: center;
   border: 4px solid #fff;
   transition: 0.3s;
   display: inline-block;
+  vertical-align: bottom;
 }
 
 .about-boxes .card-body {
@@ -1765,7 +1765,7 @@ background: none;
 	height:60px;
 	bottom:40px;
 	right:30px;
-	background-color:#25d366;
+	background-color:#25D366;
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
@@ -1783,7 +1783,7 @@ background: none;
 	height:60px;
 	bottom:120px;
 	right:30px;
-	background-color:#25d366;
+	background-color:#01579B;
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
