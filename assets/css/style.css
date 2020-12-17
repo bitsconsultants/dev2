@@ -571,6 +571,7 @@ section {
 --------------------------------------------------------------*/
 .about .container {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding-top: 30px;
   padding-bottom: 15px;
 }
 
@@ -1277,6 +1278,7 @@ section {
 --------------------------------------------------------------*/
 .contact .info-box {
   color: #444444;
+  background-color: rgb(248, 248, 248);
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px 0 30px 0;
@@ -1711,12 +1713,39 @@ section {
   }
 }
 
+.mobile-fab-tip {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  padding:0px 0.5rem;
+  text-align: right;
+  background-color: #2084ce;
+  border-radius: 20px;
+  color: #FFF;
+  width: 187px;
+  z-index: 1;
+}
+.above{
+margin-bottom: 25px;
+}
 .help-button-wrapper {
   position: fixed;
   bottom: 1em;
   right: 1em;
   text-align: center;
 }
+.help-button a{
+  color: white;
+  font-size: 14px;
+}
+.help-button a:hover{
+  color: white;
+}
+
+.help-button:hover .mobile-fab-tip{
+  display: none;
+}
+
 .help-button {
   display: inline-block;
   padding: 0;
@@ -1724,6 +1753,7 @@ border: none;
 background: none;
   transform: scale(1);
   transition: all 200ms ease;
+  z-index: 9999;
 }
 .help-button span {
   display: inline-block;
@@ -1764,13 +1794,13 @@ background: none;
 	width:60px;
 	height:60px;
 	bottom:40px;
-	right:20px;
+	right:10px;
 	background-color:#25D366;
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
   font-size:30px;
-	box-shadow: 2px 2px 3px #999;
+	box-shadow: 1px 1px 1px rgb(134, 133, 133);
   z-index:100;
 }
 
@@ -1782,13 +1812,13 @@ background: none;
 	width:60px;
 	height:60px;
 	bottom:120px;
-	right:20px;
+	right:10px;
 	background-color:#01579B;
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
   font-size:30px;
-	box-shadow: 2px 2px 3px #999;
+	box-shadow: 1px 1px 1px rgb(82, 82, 82);
   z-index:100;
 }
 .my-float2{
