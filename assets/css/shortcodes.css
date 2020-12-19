@@ -205,7 +205,7 @@
 }
 .themesflat-fancy-text.scroll .heading { font-size: 64px; height: 64px; line-height: 64px; margin: 0; }
 .themesflat-fancy-text.scroll { overflow: hidden; vertical-align: baseline; height: 64px; }
-.themesflat-fancy-text.scroll .heading { margin: 0;  color:#fff; }
+.themesflat-fancy-text.scroll .heading { margin: 0;  color:#1A237E; }
 .themesflat-fancy-text.scroll .heading { -webkit-transition: margin-top 0.4s ease-in-out; -moz-transition: margin-top 0.4s ease-in-out; transition: margin-top 0.4s ease-in-out; }
 
 /* Fancy Text Rotate */
