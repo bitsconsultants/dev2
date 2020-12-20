@@ -1732,7 +1732,7 @@ section {
 }
 
 @media screen and (max-width: 991px) {
-  #services {
+  .services1 {
     visibility: hidden;
     clear: both;
     float: left;
@@ -1743,7 +1743,7 @@ section {
 }
 
 @media screen and (min-width: 991px) {
-  #services2 {
+  .services2 {
     visibility: hidden;
     clear: both;
     float: left;
