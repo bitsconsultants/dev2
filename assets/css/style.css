@@ -1741,7 +1741,6 @@ section {
     display: none;
   }
 }
-
 @media screen and (min-width: 991px) {
   .services2 {
     visibility: hidden;
