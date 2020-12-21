@@ -12,5 +12,10 @@ jQuery(document).ready(function($) {
     var contactform =  document.getElementById('myform');
     contactform.action ="//formspree.io/bitsconsultantsco@gmail.com";
   });
+  //Subscribe
+  $('form.php-subscribe-form').submit(function() {    
+    var contactform =  document.getElementById('subscribe');
+    contactform.action ="//formspree.io/bitsconsultantsco@gmail.com";
+  });
 
 });
