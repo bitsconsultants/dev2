@@ -21,5 +21,6 @@ jQuery(document).ready(function($) {
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     document.getElementById("vat").href = "#contact";   //change url
     document.getElementById("vat").target = "#contact";     //change target
+    window.alert("sometext");
 }
 });
