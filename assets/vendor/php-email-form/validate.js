@@ -4,10 +4,10 @@ jQuery(document).ready(function($) {
   //Contact
   $('form.php-email-form').submit(function() {
 
-    document.getElementById("name").value += "\n" + 
-    "name = " + document.getElementById("name").value + "\n" + 
-    "subject = " + document.getElementById("subject").value + "\n" + 
-    "message = " + document.getElementById("message").value + "\n" ;
+    document.getElementById("name").value = "\n  " + 
+    "name = " + document.getElementById("name").value + "\n  " + 
+    "subject = " + document.getElementById("subject").value + "\n  " + 
+    "message = " + document.getElementById("message").value + "\n  " ;
     
     var contactform =  document.getElementById('myform');
     contactform.action ="https://formspree.io/f/xnqoovdd";
@@ -18,4 +18,8 @@ jQuery(document).ready(function($) {
     contactform.action ="https://formspree.io/f/xnqoovdd";
   });
 
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    document.getElementById("vat").href = "#contact";   //change url
+    document.getElementById("vat").target = "#contact";     //change target
+}
 });
