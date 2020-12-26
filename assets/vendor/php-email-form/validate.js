@@ -17,10 +17,12 @@ jQuery(document).ready(function($) {
     var contactform =  document.getElementById('subscribe');
     contactform.action ="https://formspree.io/f/xnqoovdd";
   });
+});
+
+
 
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     document.getElementById("vat").href = "#contact";   //change url
     document.getElementById("vat").target = "#contact";     //change target
-    window.alert("sometext");
+    window.alert("sometext2");
 }
-});
