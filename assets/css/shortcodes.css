@@ -226,7 +226,6 @@
 @keyframes blink { 0% { opacity:1; } 50% { opacity:0; } 100% { opacity:1; } }
 @-webkit-keyframes blink { 0% { opacity:1; } 50% { opacity:0; } 100% { opacity:1; } }
 @-moz-keyframes blink { 0% { opacity:1; } 50% { opacity:0; } 100% { opacity:1; } }
-
 /* Arrow */
 .hero-section .arrow { position: absolute; bottom: 15px; left: 50%; margin-left: -20px; width: 42px; height: 42px; z-index: 99; animation: bounce 2.5s infinite; -webkit-animation: bounce 2.5s infinite; -moz-animation: bounce 2.5s infinite; }
 .hero-section .arrow:after { content: "\e911"; font-family: "financeicons"; font-size: 42px; color: #959595; position: absolute; left: 0; top: 0; width: 100%; text-align: center; }

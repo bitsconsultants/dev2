@@ -28,8 +28,8 @@ jQuery(document).ready(function($) {
     document.getElementById("audit").href = "#audit2";   //change url
     document.getElementById("audit").target = "#audit2";     //change target
    
-    document.getElementById("financials").href = "#financials2";   //change url
-    document.getElementById("financials").target = "#financials2";     //change target
+    document.getElementById("financials").href = "#financial2";   //change url
+    document.getElementById("financials").target = "#financial2";     //change target
     
     document.getElementById("payroll").href = "#payroll2";   //change url
     document.getElementById("payroll").target = "#payroll2";     //change target
@@ -46,6 +46,22 @@ jQuery(document).ready(function($) {
     document.getElementById("software").href = "#software2";   //change url
     document.getElementById("software").target = "#software2";     //change target
    
-    document.getElementById("others").href = "#others2";   //change url
-    document.getElementById("others").target = "#others2";     //change target    
+    document.getElementById("others").href = "#other2";   //change url
+    document.getElementById("others").target = "#other2";     //change target    
+
+    
+    document.getElementById("vat2").href = "#vat2";   //change url
+    document.getElementById("vat2").target = "#vat2";     //change target
+    
+    document.getElementById("accounting2").href = "#audit2";   //change url
+    document.getElementById("accounting2").target = "#audit2";     //change target
+    
+    document.getElementById("payroll2").href = "#payroll2";   //change url
+    document.getElementById("payroll2").target = "#payroll2";     //change target
+    
+    document.getElementById("pro2").href = "#pro2";   //change url
+    document.getElementById("pro2").target = "#pro2";     //change target
+
+    document.getElementById("others2").href = "#other2";   //change url
+    document.getElementById("others2").target = "#other2";     //change target    
 }
