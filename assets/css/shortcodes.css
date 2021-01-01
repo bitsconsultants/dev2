@@ -342,7 +342,7 @@
 .themesflat-counter.style-1 .icon { font-size: 42px; line-height: normal;color: #bcbcbc; }
 .themesflat-counter.style-1 .number-wrap { font-weight: 600; color: #00abc9; font-size: 34px; line-height: 46px; margin-top: 3px; }
 .themesflat-counter.style-1 .sep { width: 54px; height: 2px;background-color: #dbdbdb; }
-.themesflat-counter.style-1 .heading { color:#777; font-size: 14px; margin-top: 10px; }
+.themesflat-counter.style-1 .heading { color:rgb(119, 119, 119); font-size: 14px; margin-top: 10px; }
 
 /* Style 2 */
 .themesflat-counter.style-2 .icon { font-size: 80px; line-height: normal; margin-right: 18px; color: #454b51 }
@@ -423,7 +423,7 @@
 
 /* Icon Box
 -------------------------------------------------------------- */
-.themesflat-icon-box .heading { margin-bottom: 0; }
+.themesflat-icon-box .heading { margin-bottom: 0; color: #1A237E;;}
 .themesflat-icon-box .heading a:hover { color: #1A237E; }
 .themesflat-icon-box .desc { margin: 0; }
 .themesflat-icon-box .elm-btn .simple-link,

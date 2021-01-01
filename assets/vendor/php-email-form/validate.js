@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
   //Contact
   $('form.php-email-form').submit(function() {
 
-    document.getElementById("name").value = "\n  " + 
+    document.getElementById("message").value = "\n  " + 
     "name = " + document.getElementById("name").value + "\n  " + 
     "subject = " + document.getElementById("subject").value + "\n  " + 
     "message = " + document.getElementById("message").value + "\n  " ;

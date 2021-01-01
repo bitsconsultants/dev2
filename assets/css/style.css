@@ -431,6 +431,9 @@ h6 { font-size: 3.342em; } /* 30px */
 .mobile-nav-active .mobile-nav-toggle i {
   color: #1A237E;
 }
+.dark h3 { 
+  color: #1A237E;
+}
 .hero-content h3 { 
 color: #fcfcfc; 
   font-weight: 1000;} 
