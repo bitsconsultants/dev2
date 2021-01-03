@@ -1785,6 +1785,7 @@ margin-bottom: 25px;
   bottom: 1em;
   right: 1em;
   text-align: center;
+  z-index: 10;
 }
 .help-button a{
   color: white;
@@ -2090,4 +2091,15 @@ about_area{padding-top:200px;padding-bottom:100px}@media (max-width: 767px){.abo
     -webkit-transform: translateY(-15px);
     transform: translateY(-15px);
   }
+}
+
+.chip {
+  display: inline-block;
+  padding: 0 15px;
+  height: 30px;
+  font-size: 14px;
+  line-height: 30px;
+  border-radius: 25px;
+  color: white;
+  background-color:#00458f;
 }

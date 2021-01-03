@@ -7,6 +7,7 @@ jQuery(document).ready(function($) {
     document.getElementById("message").value = "\n  " + 
     "name = " + document.getElementById("name").value + "\n  " + 
     "subject = " + document.getElementById("subject").value + "\n  " + 
+    "number = " + document.getElementById("number").value + "\n  " + 
     "message = " + document.getElementById("message").value + "\n  " ;
     
     var contactform =  document.getElementById('myform');
@@ -65,3 +66,20 @@ jQuery(document).ready(function($) {
     document.getElementById("others2").href = "#other2";   //change url
     document.getElementById("others2").target = "#other2";     //change target    
 }
+function check()
+{
+
+    var mobile = document.getElementById('mobile');
+   
+    
+    var message = document.getElementById('message');
+
+   var goodColor = "#0C6";
+    var badColor = "#FF9B37";
+  
+    if(mobile.value.length!=10){
+       
+        mobile.style.backgroundColor = badColor;
+        message.style.color = badColor;
+        message.innerHTML = "required 10 digits, match requested format!"
+    }}
