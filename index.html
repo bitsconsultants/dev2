@@ -933,7 +933,9 @@
             <div class="info-box  mb-4" style="height: 200px;">
               <i class="bx bx-envelope"></i>
               <h3>Email Us</h3>
-              <p>bitsconsultantsco@gmail.com</p>
+              <p>bitsconsultantsco@gmail.com
+              <br>sales.bitsconsultants@gmail.com
+              </p>
             </div>
           </div>
 
@@ -987,10 +989,10 @@
     <div class="footer-top">
       <div class="container">
         <div class="row">
-          
+
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>Bits Consultants</h3>
+              <h3>BITS CONSULTANTS</h3>
               <p meta name="format-detection" content="telephone=no">
                 Gold City Building
                 <br> Shop number : 249, Building No-21
@@ -999,7 +1001,8 @@
                 <strong>Phone:</strong> +973 3560 1152<br>
                 &emsp;&emsp;&emsp;&ensp;+973 3800 8553 (VAT)<br>
                 &emsp;&emsp;&emsp;&ensp;+973 3800 8552 (ERP)<br>
-                <strong>Email:</strong> info@bitsconsultants.com<br>
+                <strong>Email:</strong> bitsconsultantsco@gmail.com
+              <br>&emsp;&emsp;&emsp;sales.bitsconsultants@gmail.com<br>
               </p>
               <div class="social-links mt-3">
                 <a  class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -1010,9 +1013,9 @@
               </div>
             </div>
           </div>
-          
+                   
           <div class="col-lg-4 col-md-6">
-            <div class="footer-info">
+            <div class="footer-info footer-newsletter">
               <h3>ACCOTAX GENIUS (H.Q)
                
                </h3>
@@ -1022,18 +1025,27 @@
                 <br> Near Mina Bazar, Payyanur
                 <br> Kannur, KERALA- 670307 <br>
                 <strong>Phone :</strong> +91 80781 24753<br>
-                &emsp;&emsp;&emsp;&emsp;+91 90720 28282<br>
+                &emsp;&emsp;&emsp;&emsp;+91 90720 28282<br><br>
+                <strong>Email:</strong> accotaxgenius@gmail.com
                 <br>
-                <strong>Email:</strong> accotaxgenius@gmail.com<br>
               </p>
-              <div class="social-links mt-3">
-                <a  class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              </div>
+            <form id="subscribe" method="POST" class="php-subscribe-form">
+              <input type="email" name="name" placeholder="Enter mail id to subscribe" ><input type="submit" value="Subscribe">
+            </form>
             </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right" id="vat2" ></i> <a data-toggle="tab" href="#tab-1">VAT Services and Book Keeping</a></li>
+              <li><i class="bx bx-chevron-right" id="account2" ></i> <a data-toggle="tab" href="#tab-4">Annual Audit Assistance</a></li>
+              <li><i class="bx bx-chevron-right" id="account2" ></i> <a data-toggle="tab" href="#tab-4">Accounting Services</a></li>
+              <li><i class="bx bx-chevron-right" id="payroll2" ></i> <a data-toggle="tab" href="#tab-5">Payroll Maintenance</a></li>
+              <li><i class="bx bx-chevron-right" id="pro2" ></i> <a data-toggle="tab" href="#tab-10">PRO Services</a></li>
+              <li><i class="bx bx-chevron-right" id="pro2" ></i> <a data-toggle="tab" href="#tab-10">internal Audit Due Diligence</a></li>
+              <li><i class="bx bx-chevron-right" id="others2" ></i> <a data-toggle="tab" href="#tab-12">Security Surveillance</a></li>
+            </ul>
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
@@ -1041,19 +1053,12 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#headquarters">Head Quarters</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#why-us">Why Us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Portfolio</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contact</a></li>
             </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Subscribe to follow our updates</p>
-            <form id="subscribe" method="POST" class="php-subscribe-form">
-              <input type="email" name="name"><input type="submit" value="Subscribe">
-            </form>
-
           </div>
 
         </div>
@@ -1121,6 +1126,7 @@
     $(".help-button").on("click", function() {
       $(".help-button-wrapper").toggleClass("expanded");
     });
+    
     
   </script>
 
