@@ -6,7 +6,7 @@ jQuery(document).ready(function($) {
 
     document.getElementById("message").value = "\n  " + 
     "name = " + document.getElementById("name").value + "\n  " + 
-    "subject = " + document.getElementById("subject").value + "\n  " + 
+    "service = " + document.getElementById("service").value + "\n  " + 
     "number = " + document.getElementById("number").value + "\n  " + 
     "message = " + document.getElementById("message").value + "\n  " ;
     
@@ -25,12 +25,21 @@ jQuery(document).ready(function($) {
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     document.getElementById("vat").href = "#vat2";   //change url
     document.getElementById("vat").target = "#vat2";     //change target
+
+    document.getElementById("book").href = "#vat2";   //change url
+    document.getElementById("book").target = "#vat2";     //change target
+
+    document.getElementById("return").href = "#return2";   //change url
+    document.getElementById("return").target = "#return2";     //change target
     
     document.getElementById("audit").href = "#audit2";   //change url
     document.getElementById("audit").target = "#audit2";     //change target
    
     document.getElementById("financials").href = "#financial2";   //change url
     document.getElementById("financials").target = "#financial2";     //change target
+   
+    document.getElementById("control").href = "#control2";   //change url
+    document.getElementById("control").target = "#control2";     //change target
     
     document.getElementById("payroll").href = "#payroll2";   //change url
     document.getElementById("payroll").target = "#payroll2";     //change target

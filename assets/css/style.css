@@ -1450,6 +1450,19 @@ section {
   background: #7077c7;
 }
 
+.contact .php-email-form select {
+  width: 268px;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 1;
+  border-radius: 5px;
+  color: #777676;
+  height: 34px;
+  background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right rgb(255, 255, 255);
+  -webkit-appearance: none;
+  background-position-x: 244px;
+}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1753,7 +1766,7 @@ section {
   transition: 0.3s;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 768px) {
   .services1 {
     visibility: hidden;
     clear: both;
@@ -1766,7 +1779,7 @@ section {
   font-size: 8px;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 768px) {
   .services2 {
     visibility: hidden;
     clear: both;
